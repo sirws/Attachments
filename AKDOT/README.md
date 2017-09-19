@@ -8,3 +8,4 @@ And some data with fields that contain data that match up with the names of the 
 
 Note the ICDSRtNN field matches the top level folders and the ICDSMPN matches the next level below those folders.  These are the features we want to attach our images to.  In this case, we will attach all .JPG files in the ICDSMPN folders to a matching feature in the RetainingWalls featureclass.
 
+The script will loop over all of the folders in the RatingWalls2016Sample folder looking for images to attach.  The script creates a match table and then runs the Add Attachment geoprocessing tool.
